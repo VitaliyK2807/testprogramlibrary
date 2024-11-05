@@ -1,0 +1,20 @@
+package testprogramlibrary.web.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.ArrayList;
+import java.util.List;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class AuthorResponse {
+
+    private Long id;
+
+    private String name;
+
+    private List<BookResponse> books = new ArrayList<>();
+}

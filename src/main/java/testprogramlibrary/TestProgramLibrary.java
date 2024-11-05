@@ -1,4 +1,4 @@
-package testprogramlibrary.demo;
+package testprogramlibrary;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
